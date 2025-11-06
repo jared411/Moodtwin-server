@@ -1,4 +1,6 @@
-
+app.get("/", (req, res) => {
+  res.send("✅ MoodTwin backend is live and ready!");
+});
 import express from "express";
 import cors from "cors";
 import fs from "fs";
