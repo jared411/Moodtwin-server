@@ -1,14 +1,21 @@
 {
   "name": "moodtwin-server",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "MoodTwin AI backend server",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
     "node-fetch": "3.3.2"
-  }
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "license": "MIT"
 }
